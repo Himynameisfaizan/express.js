@@ -1,0 +1,35 @@
+.input {
+  padding-top: 2rem;
+
+  .border-effect {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .write {
+    padding: 16px 110px 15px 20px;
+    border-radius: 30px;
+    width: 450px;
+    font-size: 14px;
+    border: 1px #2c2c2c1c solid;
+    box-shadow: 0 0 4px #00000027;
+    outline: none;
+  }
+
+  .response {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    background-color: rgb(228, 109, 40);
+    box-shadow: 0 0 4px #00000027;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}

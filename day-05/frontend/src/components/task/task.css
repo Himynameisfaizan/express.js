@@ -1,0 +1,33 @@
+.input {
+  padding-top: 2rem;
+}
+.input .border-effect {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input .write {
+  padding: 16px 110px 15px 20px;
+  border-radius: 30px;
+  width: 450px;
+  font-size: 14px;
+  border: 1px rgba(44, 44, 44, 0.1098039216) solid;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1529411765);
+  outline: none;
+}
+.input .response {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  outline: none;
+  border: none;
+  background-color: rgb(228, 109, 40);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1529411765);
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}/*# sourceMappingURL=task.css.map */
