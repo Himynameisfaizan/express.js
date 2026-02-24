@@ -9,6 +9,7 @@ const client = new imageKit({
 });
 
 async function createPost(req, res) {
+  
   const file = await client.files.upload({
     file: await toFile(Buffer.from(req.file.buffer), "file"),
     fileName: "Test",
