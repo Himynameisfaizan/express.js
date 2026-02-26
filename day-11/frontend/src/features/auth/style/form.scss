@@ -1,0 +1,36 @@
+@use "./button.scss";
+
+@mixin flex-col($gap: 0rem) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .form-container {
+    @include flex-col(1rem);
+    min-width: 350px;
+
+    form {
+      @include flex-col(1rem);
+
+      input{
+        border: none;
+        outline: none;
+        padding-inline: 1rem;
+        padding-block: 1rem;
+        border-radius: 1rem;
+      }
+    }
+  }
+
+  a{
+    color: #b41010;
+    text-decoration: none;
+  }
+}
